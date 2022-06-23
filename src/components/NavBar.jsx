@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-// import { AiOutlineBorderVerticle } from './../../node_modules/.staging/react-icons-d993f4ca/ai/index.esm';
+
 
 const NavBar = () => {
 
@@ -31,7 +31,7 @@ const NavBar = () => {
     ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed">
     <div>
       <h1 className="text-5xl font-signature ml-2">Albert Nutifafa Dovlo</h1>
     </div>
