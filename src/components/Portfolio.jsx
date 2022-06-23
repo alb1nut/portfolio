@@ -1,10 +1,7 @@
 import React from 'react'
 import weather from "../assets/portfolio/weather.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
 import linkedInClone from "../assets/portfolio/linkedInClone.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
 
 const Portfolio = () => {
     const portfolios = [
@@ -20,22 +17,22 @@ const Portfolio = () => {
           src: linkedInClone,
           title:'LinkedIn Clone',
           demo:'',
-          code:''
+          code:'https://github.com/alb1nut/linkedin-clone'
         },
-        {
-          id: 3,
-          src: navbar,
-          title:'Weather App',
-          demo:'',
-          code:''
-        },
-        {
-          id: 4,
-          src: reactSmooth,
-          title:'Weather App',
-          demo:'',
-          code:''
-        },
+        // {
+        //   id: 3,
+        //   src: navbar,
+        //   title:'Weather App',
+        //   demo:'',
+        //   code:''
+        // },
+        // {
+        //   id: 4,
+        //   src: reactSmooth,
+        //   title:'Weather App',
+        //   demo:'',
+        //   code:''
+        // },
      
       ];
   return (
