@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 // import { AiOutlineBorderVerticle } from './../../node_modules/.staging/react-icons-d993f4ca/ai/index.esm';
 
 const NavBar = () => {
@@ -33,7 +33,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
     <div>
-      <h1 className="text-5xl font-signature ml-2">Albert</h1>
+      <h1 className="text-5xl font-signature ml-2">Albert Nutifafa Dovlo</h1>
     </div>
 
     <ul className="hidden md:flex">
@@ -42,9 +42,9 @@ const NavBar = () => {
           key={id}
           className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
         >
-          {/* <Link to={link} smooth duration={500}> */}
+          <Link to={link} smooth duration={500}>
             {link}
-          {/* </Link> */}
+          </Link>
         </li>
       ))}
     </ul>
@@ -63,14 +63,14 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize py-6 text-4xl"
           >
-            {/* <Link
+            <Link
               onClick={() => setNav(!nav)}
               to={link}
               smooth
               duration={500}
-            > */}
+            >
               {link}
-            {/* </Link> */}
+            </Link>
           </li>
         ))}
       </ul>
