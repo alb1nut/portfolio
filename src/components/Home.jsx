@@ -15,7 +15,7 @@ const Home = () => {
             Hello, I'm Albert
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-           FrontEnd ReactJs Developer || Flutter and Dart Mobile Developer
+           Frontend ReactJs Developer || Flutter and Dart Mobile Developer
           </p>
 
           <div>
