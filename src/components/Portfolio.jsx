@@ -51,7 +51,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="m-auto w-3/4 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src ,title,demo ,code}) => (
             <div key={id} className="shadow-lg shadow-black rounded-lg">
               <img
