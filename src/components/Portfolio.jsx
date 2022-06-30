@@ -27,21 +27,21 @@ const Portfolio = () => {
           src: task,
           title:'Task Manager App',
           demo:'',
-          code:''
+          code:'https://github.com/alb1nut/Task-Manager-App/tree/main/Desktop/Web%20Development/1.a.%20React%20Projects/blogging'
         },
         {
           id: 4,
           src: portfolio,
           title:'Personal Portfolio',
-          demo:'',
-          code:''
+          demo:'https://albertdovlo.com/',
+          code:'https://github.com/alb1nut/portfolio'
         },
         {
           id: 5,
           src: Technical,
           title:'Technical Documentation Page',
           demo:'',
-          code:''
+          code:'https://github.com/alb1nut/Technical-Documentation-Page'
         },
      
       ];
