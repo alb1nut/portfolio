@@ -22,20 +22,20 @@ const Portfolio = () => {
           demo:'',
           code:'https://github.com/alb1nut/linkedin-clone'
         },
-        // {
-        //   id: 3,
-        //   src: navbar,
-        //   title:'Weather App',
-        //   demo:'',
-        //   code:''
-        // },
-        // {
-        //   id: 4,
-        //   src: reactSmooth,
-        //   title:'Weather App',
-        //   demo:'',
-        //   code:''
-        // },
+        {
+          id: 3,
+          src: task,
+          title:'Task Manager App',
+          demo:'',
+          code:''
+        },
+        {
+          id: 4,
+          src: reactSmooth,
+          title:'Weather App',
+          demo:'',
+          code:''
+        },
      
       ];
   return (
