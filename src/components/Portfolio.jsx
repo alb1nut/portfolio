@@ -40,7 +40,7 @@ const Portfolio = () => {
           id: 5,
           src: Technical,
           title:'Technical Documentation Page',
-          demo:'',
+          demo:'https://alb1nut.github.io/Technical-Documentation-Page/',
           code:'https://github.com/alb1nut/Technical-Documentation-Page'
         },
      
