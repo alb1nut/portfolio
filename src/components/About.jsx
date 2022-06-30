@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -13,28 +13,30 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl  mt-10">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl  mt-5">
+          Hi, my name is Albert and i am a web developer who's paionate about all
+          things JavaScript.I'm a developer because i'm inspired by the idea of
+          being a better me today than i was yesterday.Put simply, I love to
+          learn and programming is a great example of that.
         </p>
 
         <br />
 
+        <p className="text-xl mb-5">
+          I am currently opened for  opportunities to work on Frontend
+          application and ReactJs project.
+        </p>
+        <p className="text-xl mb-5">
+          When I'm not busy building apps, you can find me playing/watching
+          basketball ,playing Chess or reading a good book.
+        </p>
         <p className="text-xl mb-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          {/* quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore. */}
+          If you will like to learn more about me ,please visit my contact
+          section
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
