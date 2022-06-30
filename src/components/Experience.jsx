@@ -70,7 +70,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="mt-80 md:mt-1 mb-80 bg-gradient-to-b from-gray-100 to-white w-full h-screen"
+      className="mt-80 md:mt-52 mb-80 bg-gradient-to-b from-gray-100 to-white w-full h-screen"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div className='ml-20 mt-80'>
