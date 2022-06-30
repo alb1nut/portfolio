@@ -31,8 +31,15 @@ const Portfolio = () => {
         },
         {
           id: 4,
-          src: reactSmooth,
-          title:'Weather App',
+          src: portfolio,
+          title:'Personal Portfolio',
+          demo:'',
+          code:''
+        },
+        {
+          id: 5,
+          src: Technical,
+          title:'Technical Documentation Page',
           demo:'',
           code:''
         },
