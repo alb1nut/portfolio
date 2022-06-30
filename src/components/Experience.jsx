@@ -46,7 +46,7 @@ const Experience = () => {
           id: 6,
           src: flutter,
           title: "Flutter",
-          style: "shadow-white",
+          style: "shadow-blue-600",
         },
         {
           id: 7,
