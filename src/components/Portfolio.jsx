@@ -1,6 +1,9 @@
 import React from 'react'
 import weather from "../assets/portfolio/weather.png";
-import linkedInClone from "../assets/portfolio/linkedInClone.png";
+import linkedInClone from "../assets/portfolio/linkedInClone.JPG";
+import task from "../assets/portfolio/Task.JPG";
+import portfolio from "../assets/portfolio/portfolio.JPG";
+import Technical from "../assets/portfolio/Technical.JPG";
 
 
 const Portfolio = () => {
