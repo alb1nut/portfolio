@@ -26,7 +26,7 @@ const Portfolio = () => {
           id: 3,
           src: task,
           title:'Task Manager App',
-          demo:'',
+          demo:'https://chipper-heliotrope-878bce.netlify.app/',
           code:'https://github.com/alb1nut/Task-Manager-App/tree/main/Desktop/Web%20Development/1.a.%20React%20Projects/blogging'
         },
         {
