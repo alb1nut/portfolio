@@ -32,7 +32,7 @@ const Portfolio = () => {
         {
           id: 4,
           src: portfolio,
-          title:'Personal Portfolio',
+          title: Portfolio',
           demo:'https://albertdovlo.com/',
           code:'https://github.com/alb1nut/portfolio'
         },
