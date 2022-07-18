@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: ecommerce,
-      title: "Ecommerce App | A Phone Shop Specialised in Apple Products",
+      title: "BIT -Ecommerce Store | An Online Apple Shop",
       demo: "https://stalwart-cascaron-b9838f.netlify.app/",
       code: "https://github.com/alb1nut/ecommerce-app",
     },
