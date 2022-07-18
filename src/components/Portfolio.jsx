@@ -1,6 +1,7 @@
 import React from "react";
 import weather from "../assets/portfolio/weather.png";
 import troski from "../assets/portfolio/troski.png";
+import ecommerce from "../assets/portfolio/ecommerce.png";
 import task from "../assets/portfolio/Task.JPG";
 import portfolio from "../assets/portfolio/portfolio.JPG";
 import Technical from "../assets/portfolio/Technical.JPG";
@@ -9,34 +10,41 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: ecommerce,
+      title: "Ecommerce App | An Phone Shop Specialised in Apple Products",
+      demo: "https://stalwart-cascaron-b9838f.netlify.app/",
+      code: "https://github.com/alb1nut/ecommerce-app",
+    },
+    {
+      id: 2,
       src: troski,
       title: "Troski-dashboard | A driver bus management app",
       demo: "https://famous-cassata-c8ea59.netlify.app/",
       code: "https://github.com/alb1nut/troski-dashboard",
     },
     {
-      id: 2,
+      id: 3,
       src: weather,
       title: "Weather App",
       demo: "https://dynamic-babka-49f2f4.netlify.app/",
       code: "https://github.com/alb1nut/reactJs-weather-app",
     },
     {
-      id: 3,
+      id: 4,
       src: task,
       title: "Task Manager App",
       demo: "https://chipper-heliotrope-878bce.netlify.app/",
       code: "https://github.com/alb1nut/Task-Manager-App/tree/main/Desktop/Web%20Development/1.a.%20React%20Projects/blogging",
     },
     {
-      id: 4,
+      id: 5,
       src: portfolio,
       title: "Portfolio",
       demo: "https://albertdovlo.com/",
       code: "https://github.com/alb1nut/portfolio",
     },
     {
-      id: 5,
+      id: 6,
       src: Technical,
       title: "Technical Documentation Page",
       demo: "https://alb1nut.github.io/Technical-Documentation-Page/",
