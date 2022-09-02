@@ -14,8 +14,8 @@ const About = () => {
         </div>
 
         <p className="text-lg mr-10 md:text-xl  mt-5">
-          Hi, my name is Albert and i am a web developer who's paionate about all
-          things JavaScript.I'm a developer because i'm inspired by the idea of
+          Hi, am Albert a Frontend web developer who's paionate about all
+          things Tech.I'm a developer because i'm inspired by the idea of
           being a better me today than i was yesterday.Put simply, I love to
           learn and programming is a great example of that.
         </p>
@@ -24,7 +24,7 @@ const About = () => {
 
         <p className="text-lg mr-10 md:text-xl mb-5">
           I am currently opened for  opportunities to work on Frontend
-          application and ReactJs project.
+          application(Mobile and Web) and ReactJs project.
         </p>
         <p className="text-lg mr-10 md:text-xl mb-5">
           When I'm not busy building apps, you can find me playing/watching
