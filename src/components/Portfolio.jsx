@@ -4,52 +4,60 @@ import troski from "../assets/portfolio/troski.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import task from "../assets/portfolio/Task.JPG";
 import portfolio from "../assets/portfolio/portfolio.JPG";
-import Technical from "../assets/portfolio/Technical.JPG";
+// import Technical from "../assets/portfolio/Technical.JPG";
+import auth from "../assets/portfolio/authwiki.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: auth,
+      title: "Auth Wiki -Authentication codes | Access to authentication codes written in different languages ",
+      demo: "https://zuri-training.github.io/Auth_Wiki_Team_3/",
+      code: "https://github.com/zuri-training/Auth_Wiki_Team_3",
+    },
+    {
+      id: 2,
       src: ecommerce,
       title: "BIT -Ecommerce Store | An Online Apple Shop",
       demo: "https://stalwart-cascaron-b9838f.netlify.app/",
       code: "https://github.com/alb1nut/ecommerce-app",
     },
     {
-      id: 2,
+      id: 3,
       src: troski,
       title: "Troski-dashboard | A driver bus management app",
       demo: "https://famous-cassata-c8ea59.netlify.app/",
       code: "https://github.com/alb1nut/troski-dashboard",
     },
     {
-      id: 3,
+      id: 4,
       src: weather,
       title: "Weather App",
       demo: "https://dynamic-babka-49f2f4.netlify.app/",
       code: "https://github.com/alb1nut/reactJs-weather-app",
     },
     {
-      id: 4,
+      id: 5,
       src: task,
       title: "Task Manager App",
       demo: "https://chipper-heliotrope-878bce.netlify.app/",
       code: "https://github.com/alb1nut/Task-Manager-App/tree/main/Desktop/Web%20Development/1.a.%20React%20Projects/blogging",
     },
     {
-      id: 5,
+      id: 6,
       src: portfolio,
       title: "Portfolio",
       demo: "https://albertdovlo.com/",
       code: "https://github.com/alb1nut/portfolio",
     },
-    {
-      id: 6,
-      src: Technical,
-      title: "Technical Documentation Page",
-      demo: "https://alb1nut.github.io/Technical-Documentation-Page/",
-      code: "https://github.com/alb1nut/Technical-Documentation-Page",
-    },
+    // {
+    //   id: 7,
+    //   src: Technical,
+    //   title: "Technical Documentation Page",
+    //   demo: "https://alb1nut.github.io/Technical-Documentation-Page/",
+    //   code: "https://github.com/alb1nut/Technical-Documentation-Page",
+    // },
   ];
   return (
     <div
